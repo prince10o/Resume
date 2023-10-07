@@ -1,0 +1,30 @@
+#container{
+    height: 400px;
+    width: auto;
+    background-color: cyan;
+    display: flex;
+    flex-direction: row;
+    /* flex-wrap: wrap; */
+    align-items: center;
+    /* align-items: baseline; */
+    justify-content: center;
+}
+#div1{
+    height: 40vh;
+    width: 20vw;
+    background-color: orange;
+    /* margin: 20px; */
+}
+#div2{
+    height: 40vh;
+    width: 20vw;
+    background-color: rgb(34, 28, 16);
+    /* margin: 30px; */
+}
+#div3{
+    height: 40vh;
+    width: 20vw;
+    background-color: rgb(255, 0, 230);
+    order: 1;
+    /* margin: 50px; */
+}

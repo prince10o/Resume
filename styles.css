@@ -1,0 +1,500 @@
+body{
+ margin: 0px;
+}
+#body-header{
+  height: 65vh;
+    opacity: 0.8;
+    background-image: url(resume.jpg);
+background-size: cover;
+background-position: center;
+
+} 
+.horizontal-list{
+  list-style: none;
+  padding: 0px;
+  text-align: center;
+  margin: 0px;
+  
+}
+.horizontal-list li{
+display: inline-block;
+margin: 20px 15px 15px;
+}
+.horizontal-list a{
+  color: white;
+  text-decoration: none;
+}
+.horizontal-list a:hover{
+color: rgb(88, 214, 176);
+border-bottom: 2px solid white;
+transition: color 0.5s, border-bottom 0.4s;
+
+}
+#my-name{
+  font-size: 4rem;
+  letter-spacing: 0.1rem;
+  color:  rgb(255, 255, 255);
+ margin-top: 8rem;
+ text-align:center;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.social-icons li a{
+  padding: 10px;
+  font-size: 1.2rem;
+  color: rgb(255, 255, 255);
+  border-radius: 50%;
+}
+.social-icons li a:hover{
+  box-shadow: 0px 0px 6px 4px;
+}
+#About{
+  height: auto;
+  width: 100%;
+  position: relative;
+}
+
+/* #my-image img{
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+} */
+#my-image {
+  height: 12rem;
+  width: 15rem;
+  margin: auto;
+  margin-top: -18vh;
+}
+
+#my-image img {
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+  box-shadow: 0px 0px 6px 6px;
+  color: rgb(181, 186, 186);
+
+}
+
+#self-intro{
+  font-size: 1.5rem;
+  word-spacing: 0.5rem;
+  line-height: 1.7rem;
+  text-align: justify;
+  margin-left: 250px;
+  margin-right: 250px;
+  margin-bottom: 15px;
+  color: blueviolet;
+   
+}
+
+
+section {
+  width: 100%;
+height: 10%;
+height: 75vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+section:nth-child(2n) {
+  background-color: #9e9b9b29;
+height: auto;
+}
+
+section:nth-child(2n + 1) {
+  background-color: white;
+margin-top: 80px;
+height: auto;
+}
+
+.skills-display {
+  width: 80%;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.section-heading{
+  margin-bottom: 50px;
+}
+
+.skill-progress {
+  width: 20%;
+  min-width: 180px;
+  height: auto;
+  border-radius: 25px;
+  background-color: lightgrey;
+  margin: 2rem 1rem;
+}
+.seventy-percent{
+  width: 75%;
+  height: inherit;
+}
+.eighty-five-percent{
+  width: 85%;
+  height: inherit;
+}
+
+
+.skill-progress > div {
+  border-radius: 25px 0 0 25px;
+  box-shadow: 4px 0px 4px 0px grey;
+}
+
+#skill-1, #skill-5 {
+  background-color: dodgerblue;
+}
+
+#skill-2 {
+  background-color: orangered;
+}
+
+#skill-4 {
+  background-color: green;
+}
+
+#skill-3, #skill-6 {
+  background-color: palevioletred;
+}
+
+.skill-name {
+  margin-left: 10px;
+  color: white;
+  font-size: 1.1rem;
+  line-height: 1.8rem;
+}
+
+.timeline{
+  position: relative;
+  width: 75%;
+
+  
+
+}
+.timeline-box{
+  position: relative;
+  width: 40%;
+  left: 5%;
+  margin: 5px;
+  min-height: 150px;
+
+  
+}
+.timeline-box:nth-child(2n+1):after{
+  content: '';
+  position: absolute;
+  top: 30%;
+ right: -12.5%;
+  border-radius: 50%;
+  width: 0.7rem;
+  height: 0.7rem;
+  background-color: rgb(210, 193, 193);;
+  z-index: 1;
+}
+
+.timeline-box:nth-child(2n):after{
+  content: '';
+  position: absolute;
+  top: 30%;
+ left: -9.5%;
+  border-radius: 50%;
+  width: 0.7rem;
+  height: 0.7rem;
+  background-color: rgb(210, 193, 193);
+  z-index: 1;
+}
+.timeline-box:nth-child(2n){
+left: 53%;
+}
+
+.timeline-head h4{
+font-size: 1.05rem;
+margin-top: 4px;
+color: rgb(219, 68, 68);
+}
+
+.timeline-head h6{
+  font-size: 1.2rem;
+  margin-top: -22px;
+  color: rgb(142, 175, 182);
+}
+.timeline-body p{
+  margin-top: -10px;
+  margin-left: 5px;
+  color: blueviolet;;
+}
+.no-bold1{
+  margin-top: 5px;
+}
+.no-bold2{
+  margin-top: -28px;
+}
+
+.timeline-divider{
+  position: absolute;
+  height: 90%;
+  width: 0;
+  top: 2%;
+  left: 50%;
+  border: 2px dashed rgb(205, 234, 238);
+}
+
+.timeline-plane{
+  position: sticky;
+  top: 77%;
+  transform: rotate(90deg);
+  font-size: 1.5rem;
+  color: blue;
+  z-index: 2;
+}
+
+#Portfolio{
+  margin-top: 110px;
+
+}
+
+.Portfolio-display {
+  width: 80%;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.section-heading{
+  margin-bottom: 50px;
+}
+
+.Portfolio-projects {
+  width: 20%;
+  min-width: 180px;
+  height: 350px;
+  border-radius: 25px;
+  background-color: lightgrey;
+  margin: 2rem 1rem;
+  
+}
+
+#portfolio-container{
+  width: 60%;
+  min-width: 150px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: rem;
+  
+}
+.portfolio-image-container{
+  width: 25%;
+  height: auto;
+  min-width: 190px;
+  margin: 1rem;
+  position: relative;
+  overflow: hidden;
+}
+
+.portfolio-image-container img {
+  width: 100%;
+  height: auto;
+}
+
+.portfolio-image-container:hover {
+
+  box-shadow: 0px 0px 12px 0px #6db5fd;
+}
+
+.portfolio-image-container:hover .middle {
+  
+  cursor: pointer;
+  opacity: 1;
+}
+
+.portfolio-image-container .middle-text {
+  background-color: rgba(230, 44, 44, 0.315);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 0.5s ease;
+}
+
+.portfolio-image-container .middle .portfolio-text {
+  padding: 1.5rem;
+  font-size: 1.3rem;
+  color: rgb(225, 86, 86);
+  margin-top: -15px;
+}
+
+.portfolio-image-container p{
+  color: blue;
+  margin-top: -10px;
+  margin-left: 20px;
+}
+
+
+/* #Contact{
+  height: 60vh;
+  background-image: linear-gradient( rgb(16, 6, 74),rgb(26, 26, 189));
+
+} */
+#contact {
+  background-image: linear-gradient(to top right, #2857a4, #403066);
+  color: white;
+  font-size: 1rem;
+  margin-top: 0;
+  
+}
+
+#contact .section-heading {
+  color: white !important;
+}
+
+#contact .social-links i:hover {
+  transform: scale(1.25);
+  transition: 0.3s;
+  text-shadow: 0px 0px 20px #a59f9f;
+}
+
+.contact-container {
+  width: 90%;
+  min-width: auto;
+  margin-bottom: 4rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  font-size: 1.25em;
+}
+
+.contact-container .contact-form-container, .contact-container .address-container {
+  flex-basis: 40%;
+  overflow-x: hidden;
+}
+
+.contact-container .contact-form-container .input-field {
+  width: 100%;
+  margin-bottom: 2rem;
+  padding-left: 1rem;
+  border: none;
+  height: 2.5rem;
+  font-size: 1em;
+  color: white;
+  border-bottom: 3px solid white;
+  background-color: #0000;
+}
+
+.contact-container .contact-form-container textarea.input-field {
+  height: 4rem;
+  resize: none;
+}
+
+.contact-container .contact-form-container .input-field:focus {
+  outline: none;
+  border-bottom: 3px solid #bebebe;
+}
+
+.contact-container .contact-form-container .input-field::placeholder {
+  color: #bebebe;
+}
+
+.contact-container .contact-form-container #submit {
+  display: block;
+  margin: 0 auto;
+  font-size: 1em;
+  padding: 0.5rem 1rem;
+  color: none;
+  color: blue;
+  background-color:  white;
+
+}
+
+.contact-container .contact-form-container #submit:hover {
+  color: #1262b3;
+}
+
+.contact-container .address-container h2, .contact-container .address-container div {
+  margin: 0.8rem 0;
+}
+
+.contact-container .address-container div, .contact-container .address-container p {
+  font-size: 0.85em;
+}
+
+/* .contact-container .contact-form-container #submit:hover {
+  color: #1262b3;
+} */
+
+.contact-container .address-container h2, .contact-container .address-container div {
+  margin: 0.8rem 0;
+}
+
+.contact-container .address-container div, .contact-container .address-container p {
+  font-size: 0.85em;
+}
+
+@media screen and (max-width: 900px){
+#self-intro{
+  margin-left: 50px;
+  margin-right: 30px;
+}
+
+@media screen and (max-width: 600px){
+  .timeline-divider{
+    left: 5%;
+  }
+.timeline-box{
+  left: 15%;
+  width: 80%;
+}
+.timeline-box:nth-child(2n){
+  left: 13%;
+  }
+  
+  .timeline-box:nth-child(2n+1):after{
+  left: -15%;
+  }
+
+  .timeline-box:nth-child(2n):after{
+     left: -13%;
+  }
+
+  #my-name{
+    font-size: 3.2rem;
+    margin-top: 7rem;
+  }
+
+}
+
+.horizontal-list{
+font-size: 0.7rem;
+}
+.contact-container .contact-form-container #submit {
+  font-size: 1rem
+}
+
+}
+  
+
+
+/* #contact-container{
+  margin-right: 1000px;
+} */
+
+/* .input-field{
+  background-image: linear-gradient( rgb(16, 6, 74),rgb(26, 26, 189));
+  font-size: 1.4rem;
+  text-decoration: underline;
+  color: white;
+
+}
+#form ::placeholder{
+  color: rgb(57, 57, 168);
+} */
